@@ -4,6 +4,9 @@ import React from 'react';
 import './Comment.css';
 
 const Comment = props => {
+  console.log(1)
+  console.log(props)
+  console.log(2)
   return (
     <div className="comment-text">
       <span className="user">{props.comment.username}</span>
